@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+<link rel="stylesheet" type="text/css" href="cal.css">  
+ <script src="cal.js" > </script>
+</head>
+<body>
+    <br>
+    <h1>CASIO</h1>
+
+  <table id="t">
+      <tr>
+          <td colspan="3"><input type="text" id="r"></input></td>
+          <td><input type="button" value="C" onclick="clr()" id="b"></input></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" id="b" onclick="see('1')"></input></td>
+        <td><input type="button" value="2"  id="b" onclick="see('2')"></input></td>
+        <td><input type="button" value="3" id="b" onclick="see('3')"></input></td>
+        <td><input type="button" value="/" id="b" onclick="see('/')"></input></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4"  id="b" onclick="see('4')"></input></td>
+        <td><input type="button" value="5" id="b" onclick="see('5')"></input></td>
+        <td><input type="button" value="6"  id="b"onclick="see('6')"></input></td>
+        <td><input type="button" value="-" id="b" onclick="see('-')"></input></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" id="b" onclick="see('7')"></input></td>
+        <td><input type="button" value="8" id="b" onclick="see('8')"></input></td>
+        <td><input type="button" value="9" id="b" onclick="see('9')"></input></td>
+        <td><input type="button" value="+" id="b" onclick="see('+')"></input></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="." id="b" onclick="see('.')"></input></td>
+        <td><input type="button" value="0" id="b" onclick="see('0')"></input></td>
+        <td><input type="button" value="=" id="b" onclick="calculate()"></input></td>
+        <td><input type="button" value="*" id="b" onclick="see('*')"></input></td>
+    </tr>
+  </table>  
+</body>
+</html>

@@ -1,0 +1,45 @@
+    body{
+        background-color:rgb(136, 198, 236);
+        vertical-align:center ;
+    }
+    h1{
+        top: 100px;
+        text-align: center;
+        color: black;
+    }
+    h1:hover
+    {
+        background-color: white;
+    }
+    #t
+    {
+        margin: 7vw 41vw;
+        background-color: black;
+        border-radius: 13px;
+         height: 350px;
+         padding-right:5px;
+         padding-bottom: 5px;
+         padding-top: 10px;
+    }
+    #r
+    {
+        font-size: 18px;
+       width:170px; 
+        height:35px;
+    }
+    #b
+    {
+        align-items: center;
+        width:50px;
+        height: 44px;
+        background-color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size: 30px;
+       border-radius: 4px;
+
+    }
+   td
+   {
+       padding-left:12px;
+       padding-right: 5px;
+   }
