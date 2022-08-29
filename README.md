@@ -1,1 +1,1 @@
-# Web-based-calculator
+A web based simple calculator developed using java script
